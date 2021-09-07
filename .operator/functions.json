@@ -2,7 +2,9 @@
   "projects": [
     {
       "projectId": "0c9456c1-8e48-4aff-9f7d-d78c2de323e4",
-      "name": "Operator Example Python"
+      "name": "Operator Example Python",
+      "restApiId": "8ih9bd10qg",
+      "restApiRegion": "us-east-1"
     }
   ],
   "functions": [
@@ -10,7 +12,14 @@
       "provider": "aws",
       "projectId": "0c9456c1-8e48-4aff-9f7d-d78c2de323e4",
       "arn": "arn:aws:lambda:us-east-1:137418857087:function:my-hello-world-python",
-      "relativeCode": "/lambda_handler.py"
+      "relativeCode": "/lambda_handler.py",
+      "usage": {
+        "type": "https",
+        "apiMethod": "GET",
+        "apiPath": "/hello",
+        "apiResourceId": "wb8nvk",
+        "corsMethod": false
+      }
     }
   ]
 }
