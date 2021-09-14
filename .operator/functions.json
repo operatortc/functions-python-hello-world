@@ -4,7 +4,8 @@
       "projectId": "0c9456c1-8e48-4aff-9f7d-d78c2de323e4",
       "name": "Operator Example Python",
       "restApiId": "8ih9bd10qg",
-      "restApiRegion": "us-east-1"
+      "restApiRegion": "us-east-1",
+      "localPort": 8080
     }
   ],
   "functions": [
