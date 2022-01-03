@@ -1,0 +1,143 @@
+{
+  "localhost": {
+    "provider": "aws",
+    "apiId": "0019faba-7ab9-4bc8-91fb-9875315f1512",
+    "functionName": "myPythonHelloWorld1",
+    "lastDeployed": null,
+    "properties": {
+      "https": {
+        "apiMethod": "GET",
+        "apiPath": "/hello"
+      },
+      "sns": null,
+      "scheduled": null,
+      "regionName": {
+        "value": "us-east-1"
+      },
+      "relativeFile": {
+        "value": [
+          "..",
+          "lambda_handler.py"
+        ]
+      },
+      "relativeFolder": {
+        "value": [
+          ".."
+        ]
+      },
+      "environment": {
+        "value": {}
+      },
+      "policies": {
+        "value": []
+      },
+      "handler": {
+        "value": "lambda_handler.lambda_handler",
+        "deployed": false
+      },
+      "timeout": {
+        "value": 10
+      },
+      "memorySize": {
+        "value": 256
+      },
+      "runtime": {
+        "value": "python3.9"
+      }
+    }
+  },
+  "137418857087": {
+    "provider": "aws",
+    "apiId": "0019faba-7ab9-4bc8-91fb-9875315f1512",
+    "functionName": "myPythonHelloWorld1",
+    "lastDeployed": "2021-12-14T16:42:53.435+0000",
+    "properties": {
+      "https": {
+        "apiMethod": "GET",
+        "apiPath": "/hello",
+        "apiResourceId": "9p8x6m",
+        "restApiId": "0uco1kwek2",
+        "restApiRegion": "us-east-1"
+      },
+      "sns": null,
+      "scheduled": null,
+      "regionName": {
+        "value": "us-east-1",
+        "deployed": false
+      },
+      "relativeFile": {
+        "value": [
+          "..",
+          "lambda_handler.py"
+        ],
+        "deployed": false
+      },
+      "relativeFolder": {
+        "value": [
+          ".."
+        ],
+        "deployed": false
+      },
+      "environment": {
+        "value": {},
+        "deployed": false
+      },
+      "policies": {
+        "value": []
+      },
+      "handler": {
+        "value": "lambda_handler.lambda_handler"
+      },
+      "timeout": {
+        "value": 10,
+        "deployed": false
+      },
+      "memorySize": {
+        "value": 256,
+        "deployed": false
+      },
+      "runtime": {
+        "value": "python3.9",
+        "deployed": false
+      }
+    },
+    "createResponse": {
+      "FunctionName": "myPythonHelloWorld1",
+      "FunctionArn": "arn:aws:lambda:us-east-1:137418857087:function:myPythonHelloWorld1",
+      "Runtime": "python3.9",
+      "Role": "arn:aws:iam::137418857087:role/operator-function-us-east-1-myPythonHelloWorld1",
+      "Handler": "lambda_handler.lambda_handler",
+      "CodeSize": 27081,
+      "Description": "",
+      "Timeout": 3,
+      "MemorySize": 128,
+      "LastModified": "2021-12-14T16:42:53.435+0000",
+      "CodeSha256": "1ncVbJIn18IWjCCTuuf0FyFNVHmEb7hJsBfA7FhBz3g=",
+      "Version": "1",
+      "KMSKeyArn": null,
+      "TracingConfig": {
+        "Mode": "PassThrough"
+      },
+      "MasterArn": null,
+      "RevisionId": "9549612a-5938-4ef4-a560-e0120022380c",
+      "State": "Pending",
+      "StateReason": "The function is being created.",
+      "StateReasonCode": "Creating",
+      "LastUpdateStatus": null,
+      "LastUpdateStatusReason": null,
+      "LastUpdateStatusReasonCode": null,
+      "PackageType": "Zip",
+      "SigningProfileVersionArn": null,
+      "SigningJobArn": null,
+      "Architectures": [
+        "x86_64"
+      ],
+      "Tags": {
+        "operator:version": "1"
+      },
+      "regionName": "us-east-1",
+      "profileName": "optoolco2"
+    },
+    "arn": "arn:aws:lambda:us-east-1:137418857087:function:myPythonHelloWorld1"
+  }
+}
